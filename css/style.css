@@ -4,7 +4,7 @@ body{
   /*Page background should use the provided image as a non-repeating background, with a fallback color of light grey (#dddddd)*/
   background: #dddddd url(../images/pidgeon-background.jpg);
   background-repeat: no-repeat;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 h1{
   /* Header 1 should be 2em, each line should be 1.5 height, and dark red (#c12258) */
