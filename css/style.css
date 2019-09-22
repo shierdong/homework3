@@ -41,7 +41,8 @@ table{
   color: white;
   text-align: center;
   text-transform: uppercase;
-  background-color:#7e0830
+  background-color:#7e0830;
+  background-radius:10px;
 }
 tr th{
   /*Table cells have centered text with a 2px black border on only one side, and 15px padding on all sides.
