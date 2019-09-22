@@ -1,0 +1,79 @@
+body{
+  /* Quicksand font (you will need to use a Google Fonts link) with sans-serif fallback */
+  font-family: "Quicksand", sans-serif;
+  /*Page background should use the provided image as a non-repeating background, with a fallback color of light grey (#dddddd)*/
+  background: #dddddd url(../images/pidgeon-background.jpg);
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+h1{
+  /* Header 1 should be 2em, each line should be 1.5 height, and dark red (#c12258) */
+  font-size: 2em;
+  line-height: 1.5;
+  color: #c12258;
+}
+p{
+  /*Paragraphs should be “black”, 18px, with 15px of padding on the top only */
+  font-size: 18px;
+  padding-top: 15px;
+  color: black;
+}
+a{
+  /*Links should be 18px, dark red (#c12258), with an underline
+  Focused elements should have a 1px “red” border (make sure you format parameters as ‘px, weight, color’ order)*/
+  font-size: 18px;
+  color: #c12258;
+  text-decoration: underline;}
+  :focus{
+    border:1px solid red;
+}
+table{
+  /* Table has 2px black border (make sure you format parameters as ‘px, weight, color’ order) */
+  border: 2px solid black;
+  border-radius: 10px;
+  border-collapse: separate;
+}
+.colhead{
+  /* Column headers are always at least 150px wide, with 10px of padding. Column header text is white, centered, and uppercase with a dark red background (#7e0830). */
+  width:150px;
+  padding:10px;
+  border-bottom: 2px solid black;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background-color:#7e0830
+}
+tr th{
+  /*Table cells have centered text with a 2px black border on only one side, and 15px padding on all sides.
+  Row headers have a 2px black border that matches the rest of the rows.*/
+  border-bottom: 2px solid black;
+  text-align: center;
+  padding: 15px;
+}
+tr td{
+  border-bottom: 2px solid black;
+  text-align: center;
+  padding: 15px;
+}
+tr:nth-child(even){
+  /*Every even numbered table row has a grey background (#dddddd), every add table row has a transparent background.*/
+  background-color: #dddddd;
+}
+tr:nth-child(odd){
+  background-color: transparent;
+}
+tr:hover:hover{
+  /*Hovering over a row changes the background color to light red (#fab9cf).*/
+  background-color: #fab9cf;
+}
+footer p{
+  /*  Footer has “white” text on a “black” background
+Is always located at the bottom of the browser window, no matter how small the page content is. (this may take more than one line of code)
+Footer is always at least 60px tall. */
+  color: white;
+  background-color:black;
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+}
