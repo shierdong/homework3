@@ -4,7 +4,7 @@ body{
   /*Page background should use the provided image as a non-repeating background, with a fallback color of light grey (#dddddd)*/
   background: #dddddd url(../images/pidgeon-background.jpg);
   background-repeat: no-repeat;
-  margin: 80px;
+  margin: 100px;
 }
 h1{
   /* Header 1 should be 2em, each line should be 1.5 height, and dark red (#c12258) */
@@ -32,6 +32,7 @@ table{
   border: 2px solid black;
   border-radius: 10px;
   border-collapse: separate;
+  margin: 100px;
 }
 .colhead{
   /* Column headers are always at least 150px wide, with 10px of padding. Column header text is white, centered, and uppercase with a dark red background (#7e0830). */
